@@ -1,0 +1,48 @@
+body {
+  overflow-x:hidden;
+}
+.card-img-top{
+  width:100px;
+  height: 200px;
+  object-fit: contain;
+
+}
+.btn.btn-primary{
+  width:140px;
+  height:50px;
+  border:nonex;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size:17px;
+  right:200px;
+
+ 
+}
+.card{
+  width:400px;
+  height: 100px;
+ display:flex;
+ flex-direction:row;
+ flex-wrap:wrap;
+}
+.card-body{
+ left: 40px;
+}
+.container-fluid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.col-md-9{
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+.card-body{
+  display:list-item;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
